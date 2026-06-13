@@ -7,7 +7,7 @@ function App() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:4000/api/message")
+    fetch("http://172.237.65.209:4000/api/message")
       .then((res) => {
         if (!res.ok) {
           throw new Error("Failed to fetch data");
