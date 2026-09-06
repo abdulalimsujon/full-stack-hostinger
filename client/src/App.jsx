@@ -5,7 +5,7 @@ function App() {
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
-
+  
   useEffect(() => {
     fetch("http://172.237.65.209:4000/api/message")
       .then((res) => {
@@ -23,7 +23,7 @@ function App() {
         setLoading(false);
       });
   }, []);
-
+  
   return (
     <div className="container">
       <div className="card">
