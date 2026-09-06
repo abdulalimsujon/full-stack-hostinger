@@ -1,0 +1,12 @@
+git config --global core.editor nano
+
+git checkout add
+
+git branch -D add-python
+
+git branch -a // local and remote dui dhoroner branch aksatha dekte 
+
+git reset --hard tonmoy/main -- local branch a ja kichu ache seta dia local main branch replace kore dibe
+local-এ তোমার করা uncommitted কাজ থাকলে সেগুলো হারিয়ে যেতে পারে
+
+git branch -m  branchName 
